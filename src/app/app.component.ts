@@ -10,7 +10,7 @@ export class AppComponent {
 
   loadedFeeature = 'Recipe';
 
-  show(event){
-    this.loadedFeeature = event;
+  show(feature: string){
+    this.loadedFeeature = feature;
   }
 }
